@@ -4,12 +4,12 @@ body {
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 .light body {
-    background-color: #f0f2f5; /* Light background */
-    color: #333; /* Dark text */
+    background-color: #f0f2f5; 
+    color: #333; 
 }
 .dark body {
-    background-color: #1a202c; /* Dark background */
-    color: #e2e8f0; /* Light text */
+    background-color: #1a202c; 
+    color: #e2e8f0; 
 }
 .light .bg-card {
     background-color: #ffffff;
@@ -26,16 +26,16 @@ body {
     border-color: #4a5568;
 }
 .light .text-primary {
-    color: #4CAF50; /* Green */
+    color: #4CAF50; 
 }
 .dark .text-primary {
-    color: #81C784; /* Lighter green for dark mode */
+    color: #81C784; 
 }
 .light .text-secondary {
-    color: #2196F3; /* Blue */
+    color: #2196F3; 
 }
 .dark .text-secondary {
-    color: #90CAF9; /* Lighter blue for dark mode */
+    color: #90CAF9; 
 }
 
 /* Hide modules by default, JavaScript will show the active one */
